@@ -12,5 +12,5 @@ with open('ip', 'w') as f:
 f.close()
 
 with open('track', 'a') as f:
-	f.write(datetime.now().strftime("%H:%M:%S"))
+	f.write(datetime.now().strftime("%H:%M:%S"))+'\n'
 f.close()

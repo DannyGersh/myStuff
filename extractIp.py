@@ -1,4 +1,4 @@
-ip = Null
+ip = None
 with open('ip', 'r') as f:
 	ip = f.read()
 f.close()

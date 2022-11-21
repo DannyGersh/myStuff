@@ -11,6 +11,6 @@ with open('ip', 'w') as f:
 	f.write(ip)
 f.close()
 
-with open('ip', 'a') as f:
+with open('track', 'a') as f:
 	f.write(datetime.now().strftime("%H:%M:%S"))
 f.close()
